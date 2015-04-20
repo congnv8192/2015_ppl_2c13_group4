@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=void\ print_arrays(int[])
+comment1.params=a
+comment1.target=int\ countNegative(int[])
+comment1.text=\r\n\ @overview\:\ count\ the\ negative\ number\ in\ array\r\n\ @requirements\:\ an\ array\ is\ not\ null\ /\\\ a.length\ >\ 0\r\n\ @effect\:\ \r\n\ \ \ \ \ \ declare\ an\ integer\ variable\ count\ \=\ 0\r\n\ \ \ \ \ \ for\ i\:\ (int\ i\ \=\ 0;\ i\ <\ a.length;\ i++)\r\n\ \ \ \ \ \ if\ a[i]\ less\ than\ 0\r\n\ \ \ \ \ \ {@link\ count++}\:\ increase\ 'count'\r\n\ \ \ \ \ \ return\ count\r\n
+comment2.params=a
+comment2.target=int\ minimum(int[])
+comment2.text=\r\n\ @overview\:\ find\ the\ minimum\ element\ in\ array\ a\r\n\ @requirements\:\ an\ array\ a\ is\ not\ null\ /\\\ a.length\ >\ 0\r\n\ @effects\:\ \r\n\ \ \ \ \ \ declare\ integer\ variable\ min\ \=\ a[0]\r\n\ \ \ \ \ \ for\ i\:\ (int\ i\ \=\ 0;\ i\ <\ a.length;\ i++)\r\n\ \ \ \ \ \ {@link\ if()}\:\ \r\n\ \ \ \ \ \ if\ a[i]\ <\ min\ \r\n\ \ \ \ \ \ min\ is\ assigned\ to\ a[i]\r\n\ \ \ \ \ \ return\ min\r\n\ \ {@link\ \#putln()}\:\ print\ out\ the\ minimum\ of\ this\ array\r\n
+comment3.params=a
+comment3.target=void\ isAscSorted(int[])
+comment3.text=\r\n\ @overview\:\ whether\ an\ array\ is\ sorted\ in\ ascending\ order\r\n\ @requirement\:\ array\ is\ not\ null\ /\\\ a.length\ >\ 0\r\n\ @effects\:\r\n\ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ a.length;\ i++)\r\n\ \ \ \ \ \ \ \ \ \ //\ bubble\ sort\ \r\n\ \ \ \ \ \ \ \ \ \ if\ a[i]\ >\ a[i+1]\ \r\n\ \ \ \ \ \ \ \ \ \ //\ swap\ a[i]\ and\ a[i+1]\r\n\ \ \ \ \ \ \ \ \ \ int\ temp\ \=\ a[i]\r\n\ \ \ \ \ \ \ \ \ \ a[i]\ \=\ a[i+1]\r\n\ \ \ \ \ \ \ \ \ \ a[i+1]\ \=\ temp\r\n\ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ a.length;\ i++)\r\n\ \ \ \ \ \ \#put\ a[i]\r\n\ @modification\:\ print\ out\ an\ sorted\ array\ \ \r\n
+comment4.params=a
+comment4.target=void\ median(int[])
+comment4.text=\r\n\ @oveview\:\ \r\n\ @requirement\:\ \r\n\ @effects\:\r\n
+comment5.params=a
+comment5.target=void\ compare(int[])
+comment5.text=\r\n\ @requirement\:\r\n\ @effects\:\r\n
+comment6.params=a
+comment6.target=void\ freq(float[])
+comment6.text=\r\n\ @overview\:\ count\ the\ frequencies\ of\ each\ element\ in\ array\ of\ real\r\n\ @requirement\:\ array\ is\ not\ null\ /\\\ a.length\ >\ 0\r\n\ @effects\:\r\n\ \ \ \ \ \ int\ count\ \=\ 0\r\n\ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ a.length;\ i++)\r\n\ \ \ \ \ \ \r\n
+numComments=7

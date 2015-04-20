@@ -96,29 +96,18 @@ public class Arrays
      * @overview: whether an array is sorted in ascending order
      * @requirement: array is not null /\ a.length > 0
      * @effects:
-     *      for (int i = 0; i < a.length; i++)
-     *          // bubble sort 
+     *      for (int i = 0; i < a.length -1; i++)
      *          if a[i] > a[i+1] 
-     *          // swap a[i] and a[i+1]
-     *          int temp = a[i]
-     *          a[i] = a[i+1]
-     *          a[i+1] = temp
-     *      for (int i = 0; i < a.length; i++)
-     *      #put a[i]
-     * @modification: print out an sorted array  
+     *          return false;
+     *      return true
      */
-    public static void isAscSorted(int [] a){
-        for (int i = 0; i < a.length; i++) {
+    public static boolean isAscSorted(int [] a){
+        for (int i = 0; i < a.length - 1; i++) {
             if (a[i] > a[i+1]) {
-                int temp = a[i];
-                a[i] = a[i+1];
-                a[i+1] = temp;
+               return false;
             }
         }
-        
-        for (int i = 0; i < a.length; i++){
-            putf(a[i]+" ");
-        }
+     return true;
     }
     
     /**

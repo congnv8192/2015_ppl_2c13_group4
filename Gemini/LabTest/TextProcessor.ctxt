@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=path
+comment0.target=void\ task2(java.lang.String[])
+comment0.text=\r\n\ Read\ text\ File,\ remove\ reduntdant\ space,\ normalize\ word,\ print\ updated\ file.\r\n\ \r\n\ @effect\ \r\n\ \ {@link\ \#TextIO.readFile()\ }\:\ read\ text\ file\r\n\ \ get\ StringContent\ from\ text\ file\ i.e\ StringContent+\=\ TextIO.getln()\r\n\ \ {@link\ \#StringContent.replaceAll("\\\\+s",\ "\ ")}\:\ remove\ redundant\ space\r\n\ \ uppercase\ the\ first\ letter\ and\ lowercase\ other\ letter\ of\ the\ word\ \r\n\ \ print\ the\ updated\ file\ data2.txt\r\n
+comment1.params=path
+comment1.target=int\ countLine(java.lang.String[])
+comment1.text=\r\n\ Count\ the\ line\ of\ the\ updated\ file\r\n\ \r\n\ @effect\r\n\ \ \ \ \ \ open\ and\ get\ string\ from\ data2.txt\r\n\ \ \ \ \ \ split\ array\ into\ elements\ separated\ by\ line\ break\ i.e\ \:\ '\\n'\r\n\ \ \ \ \ \ count\ the\ number\ element\ of\ above\ array\r\n
+comment2.params=path
+comment2.target=int\ countTotalWord(java.lang.String[])
+numComments=3

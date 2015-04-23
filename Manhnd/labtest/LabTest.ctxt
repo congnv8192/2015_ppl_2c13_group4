@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=path
+comment0.target=void\ task2(java.lang.String[])
+comment0.text=\r\n\ Read\ text\ File,\ remove\ reduntdant\ space,\ normalize\ word,\ print\ updated\ file.\r\n\ \r\n\ @effect\ \r\n\ \ {@link\ \#TextIO.readFile()\ }\:\ read\ text\ file\r\n\ \ while\ (\!eof),get\ StringContent\ from\ text\ file\ i.e\ StringContent+\=\ TextIO.getln()\r\n\ \ {@link\ \#StringContent.replaceAll("\\\\+s",\ "\ ")}\:\ remove\ redundant\ space\r\n\ \ {@link\ \#TextIO.getWord}\:\ get\ word\ from\ StringContennt\r\n\ \ uppercase\ the\ first\ letter\ and\ lowercase\ other\ letter\ of\ the\ word\ \r\n\ \ print\ the\ updated\ file\ data2.txt\r\n
+comment1.params=updateContent
+comment1.target=int\ countLine(java.lang.String)
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ the\ main\ procedure\r\n\ @effects\ \r\n\ \ \ \ initialise\ a\ coffee\ tin\r\n\ \ \ \ {@link\ @tinGame(char[])}\:\ perform\ the\ coffee\ tin\ game\ on\ tin\r\n\ \ \ \ if\ last\ bean\ is\ correct\r\n\ \ \ \ \ \ {@link\ TextIO\#putf(String,\ Object...)}\:\ print\ its\ colour\ \r\n\ \ \ \ else\r\n\ \ \ \ \ \ {@link\ putf(String)}\:\ print\ an\ error\ message\r\n
+comment1.params=tin
+comment1.target=int[]\ takeTwo(char[])
+comment1.text=\ \r\n\ Takes\ out\ any\ two\ beans\ randomly\r\n\ @requirement\:\ tin\ is\ not\ null\ /\\\ tin.length\ >\ 0\r\n\ @modifies\ tin\r\n\ @effects\:\ repeatedly\ remove\ two\ beans\ from\ tin\r\n\ \ \ \ \ create\ an\ array\ to\ store\ two\ beans\r\n\ \ \ \ \ that\ are\ taken\ out\ from\ tin\r\n\ \ \ \ \ takes\ out\ two\ beans\ randomly\r\n\ \ \ \ \ \ \ \ \ {@link\ \#Math.random()}\:\ picks\ random\ b0\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ until\ tin[b0]\ is\ not\ REMOVED\r\n\ \ \ \ \ \ \ \ \ {@link\ \#Math.random()}\:\ picks\ random\ b1\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ until\ tin[b1]\ is\ not\ REMOVED\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ b1\ is\ not\ equal\ to\ b0\r\n
+comment2.params=tin
+comment2.target=char[]\ updateTin(char[])
+comment2.text=\r\n\ determine\ the\ color\ of\ the\ last\ bean\r\n\ @requirement\:\ tin\ is\ not\ null\ /\\\ tin.length\ >\ 0\r\n\ @effects\:\ \r\n\ \ \ \ \ {@link\ \#takeTwo()}\:\ after\ taking\ out\ two\ beans\r\n\ \ \ \ \ if\ they\ are\ the\ same\ color\ \r\n\ \ \ \ \ \ \ \ \ throw\ them\ both\ away\r\n\ \ \ \ \ \ \ \ \ put\ a\ Blue\ Mountain\ bean\ back\ in\r\n\ \ \ \ \ else\ \r\n\ \ \ \ \ \ \ \ \ throw\ away\ the\ blue\ one\r\n\ \ \ \ \ \ \ \ \ put\ the\ green\ one\ back\r\n\ \ \ \ \ until\ the\ bean\ in\ the\ tin\ \=\ 1\r\n
+comment3.params=tin
+comment3.target=char\ tinGame(char[])
+comment3.text=\r\n\ perform\ the\ coffee\ tin\ game\r\n\ @requirement\:\ tin\ is\ not\ null\ /\\\ tin.length\ >\ 0\r\n\ @effects\:\r\n\ \ \ \ \ {@link\ \#updateTin()}\:\ invoke\ update\ tin\ \r\n\ \ \ \ \ 0\ <\ i\ <\ tin.length\r\n\ \ \ \ \ \ \ \ \ if\ a[i]\ is\ not\ remove\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ a[i]\ \=\=\ lastBean\r\n\ \ \ \ \ return\ color\ of\ the\ lastBean\r\n
+numComments=4

@@ -15,7 +15,7 @@ public class LabTest {
  *  uppercase the first letter and lowercase other letter of the word 
  *  print the updated file data2.txt
  */
-
+/***ManhMn**/
 public static void task2(String[] path)
 {
   try {
